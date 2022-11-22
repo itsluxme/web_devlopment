@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+</head>
+<style>
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: #fff;
+  }
+    div.featureContainer 
+    {
+        background-color:#3d4647;
+        
+    }
+    .featureContainer h2 {
+        text-align: center;
+        font-size: 25px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .container
+    {
+     margin: auto;
+     width: 80%;
+    }
+    .box{
+        text-align: center;
+        align-items: center;
+        display: inline-block;
+    }
+    .box image{
+        height: 60px;
+        width: 60px;
+    }
+    .box h3{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 14px;
+        }
+    .box p{
+        font-size: 10px;
+    }
+</style>
+<body>
+<div class="featureContainer">
+    <h2>FEATURES</h2>
+    <div class="container">
+        <div class="box">
+            <img src="./1.png" alt="image">
+            <h3>Primary Feature</h3>
+            <p>Nullam quis elementum ligula. Sed neque neque, molestie eget nulla eu, magna</p>
+        </div>
+        <div class="box">
+            <img src="./2.png" alt="image">
+            <h3>Secondary Feature</h3>
+            <p>Nullam quis elementum ligula. Sed neque neque, molestie eget nulla eu, magna</p>
+        </div>
+
+        <div class="box">
+            <img src="./3.png" alt="image">
+            <h3>Tertiary Feature</h3>
+            <p>Nullam quis elementum ligula. Sed neque neque, molestie eget nulla eu, magna</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>
